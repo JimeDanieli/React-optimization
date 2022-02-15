@@ -1,4 +1,5 @@
 import { Formik, Form } from 'formik'
+import { memo } from 'react'
 import * as Yup from 'yup'
 import Input from '../Input'
 
@@ -30,4 +31,4 @@ const MyForm = ({ onSubmit }) => {
   )
 }
 
-export default MyForm
+export default memo(MyForm)
