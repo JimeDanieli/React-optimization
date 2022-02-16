@@ -24,10 +24,10 @@ function App() {
   
   }, [iterador]) 
   console.timeEnd('memo')
-
+//frena un timer que llamaba antes al tiempo e imprime el resultado
   return (
     <div>
-      <Title>Mi título</Title>
+      <Title>My title</Title>
       <MyForm onSubmit={handleSubmit} />
       <MyList data={valores} />
     </div>
