@@ -1,3 +1,4 @@
+import {memo} from 'react'
 const Title = ({ children }) => {
   console.log('rendering title')
   return (
@@ -7,4 +8,4 @@ const Title = ({ children }) => {
   )
 }
 
-export default Title
+export default memo(Title)
